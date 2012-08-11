@@ -36,3 +36,9 @@ exports.toKeyValues = (source) ->
   Object.keys(source).map (key) ->
     key: key
     value: source[key]
+
+exports.makeObject = (args...) ->
+  o = {}
+  for i in [0..args.length] by 2
+    o[args[i]] = args[i+1]
+  o
