@@ -2,7 +2,7 @@
   "name": "underscore.plus",
   "description": "Underscore extensions",
   "main": "./lib/main.js",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "author": "Jakob Mattsson <jakob.mattsson@gmail.com> (jakobmattsson.se)",
   "repository": {
     "type": "git",
